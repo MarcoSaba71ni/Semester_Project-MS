@@ -1,0 +1,181 @@
+@import "import/media.css";
+
+@font-face {
+    font-family: "Irish Grover";
+    src: url("../fonts/IrishGrover-Regular.woff") format("truetype");
+}
+
+h1, h2, h3 {
+    font-family: "Irish Grover";
+}
+
+h1 {
+    font-size: 45px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 25px;
+}
+
+header {
+    background-color: #4335A7;
+    color: white;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+header h1 {
+    padding-left: 100px;
+    font-size: 35px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 30px 100px 0 0;
+    height: 40px;
+}
+
+header a {
+    color: white;
+}
+
+.cta_header {
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    text-decoration: underline;
+    color: white;
+}
+
+.cta_header:hover {
+    background-color: #80C4E9;
+    transition-duration: 0.4s;
+    color: black;
+}
+
+.discover img {
+    width: 1873.3px;
+    height: 722px;
+}
+
+.discover h1 {
+    color: black;
+}
+
+.exhibition {
+    background-color: #80C4E9;
+    height: 1200px;
+    width: 100%;
+}
+
+article {
+    padding: 50px 0 50px 250px;
+}
+
+.exhibition img {
+    width: 387px;
+    height: 461px;
+    object-fit: cover;
+}
+
+.exhibition-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.exhibition-content p {
+    width: 362px;
+}
+
+.exhibition-content img:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
+.home_info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 50px 0 50px 0;
+}
+
+.home_info img:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
+.home_info img {
+    width: 553px;
+    height: 381px;
+    object-fit: cover;
+}
+
+.home_info p{
+    width: 512px;
+}
+
+footer {
+    background-color: #4335A7;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-evenly;
+    height: 212px;
+    padding-top: 150px;
+}
+
+footer h1 {
+    padding-left: 100px;
+}
+
+footer nav {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 30px 100px 0 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.cta {
+    width: 90px;
+}
+
+.cta_img:hover {
+    transform: scale(1.2);
+}
+
+.cta_book {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: auto;
+    text-decoration: none;
+}
+
+.cta_book:hover {
+    background-color: white;
+    color: black;
+    transition-duration: 0.6s;
+}
