@@ -1,0 +1,57 @@
+main img {
+    width: 100%;
+    height: 588px;
+    object-fit: cover;
+}
+
+main h1 {
+    background-color: black;
+    padding: 50px 0 50px 250px;
+    color: white;
+}
+
+.exhibition-display {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main h2, main h3 {
+    padding: 50px 0 20px 250px;
+    width: 750px;
+}
+
+.visit_booking {
+    background-color: black;
+    color: white;
+    margin: 50px;
+}
+
+nav h2 {
+    padding: 50px 0 50px 250px;
+}
+
+nav img {
+    width: 553px;
+    height: 381px;
+    object-fit: cover;
+}
+
+.current {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 50px 0 50px 0; 
+}
+
+.current p {
+    width: 475px;
+}
+
+.discover {
+    padding: 50px 0 100px 250px;
+    width: 750px;
+}
+
+.discover {
+    justify-content: center;
+}

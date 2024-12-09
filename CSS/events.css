@@ -1,0 +1,36 @@
+main img, nav img {
+    width: 100%;
+    height: 714px;
+    object-fit: cover;
+}
+
+article {
+    padding: 50px 0 50px 100px;
+    width: 650px;
+}
+
+.event_display {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.visit_booking {
+    background-color: #FF7F3E;
+    color: white;
+    margin: 50px;
+    padding-left: 50px;
+}
+
+nav p {
+    width: 1180px;
+}
+
+.why-its-amazing img {
+    width: 50%;
+}
+
+.why-its-amazing {
+    display: flex;
+    flex-wrap: wrap;
+}
