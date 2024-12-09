@@ -69,12 +69,18 @@ header a {
 }
 
 .discover img {
-    width: 1873.3px;
-    height: 722px;
+    width: 100%;
+    height: auto;
 }
 
 .discover h1 {
-    color: black;
+    color: white;
+}
+
+.discover_text {
+    position: absolute;
+    top: 30rem;
+    left: 10%;
 }
 
 .exhibition {

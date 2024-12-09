@@ -2,6 +2,15 @@
 
 
     /*Home Page*/
+
+.discover_text {    
+    top: 16rem;
+}
+
+.discover_text h1 {
+    font-size: 25px ;
+}
+
 main h2 {
     text-align: center;
 }
