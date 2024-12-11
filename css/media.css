@@ -69,8 +69,8 @@ main h2, h3, p {
 }
 
 .visit_booking {
-    width: 300px;
-    height: 200px;
+    width: 270px;
+    height: 170px;
 }
 
 .who-we-are img , .support-us img {
@@ -141,4 +141,25 @@ main h2 {
     height: 300px;
 }
 
+/* Exhibition Pages */
+
+.exhibition_main h1 {
+    padding: 50px 0 50px 170px;
+}
+
+.exhibition_main h2, .exhibition_main h3 {
+    padding: 0px 0px 20px 0px;
+    width: auto;
+}
+
+.current img {
+    width: 480px;
+}
+
+.discover {
+    padding: 50px 0 100px 10px;
+    width: auto;
+}
+
+;
 }

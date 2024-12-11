@@ -17,17 +17,23 @@ main h1 {
 .exhibition-display {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    flex: 1;
 }
 
 main h2, main h3 {
-    padding: 50px 0 20px 250px;
+    padding: 50px 0 20px 50px;
     width: 750px;
 }
 
 .visit_booking {
     background-color: black;
     color: white;
-    margin: 50px;
+}
+
+.cta_book {
+    background-color: aqua;
+    color: black;
 }
 
 nav h2 {
@@ -48,7 +54,12 @@ nav img {
 }
 
 .current p {
-    width: 475px;
+    width: 510px;
+}
+
+.current img:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
 }
 
 .discover {
@@ -58,4 +69,8 @@ nav img {
 
 .discover {
     justify-content: center;
+}
+
+.discover h2 {
+    color: black;
 }

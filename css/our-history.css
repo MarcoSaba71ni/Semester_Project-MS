@@ -53,6 +53,10 @@ nav img {
 .why-are-we-here {
     background-color: #8ED4B6;
     justify-content: center;
-    height: 570px;
+    height: auto;
     padding: 50px 0 50px 0;
+}
+
+footer {
+    height: auto;
 }
