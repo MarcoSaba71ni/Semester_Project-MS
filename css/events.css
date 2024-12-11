@@ -8,6 +8,9 @@ article {
     padding: 50px 0 50px 100px;
     width: 650px;
 }
+.discover_text h1, h2 {
+    color: white;
+}
 
 .event_display {
     display: flex;
