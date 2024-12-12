@@ -1,7 +1,19 @@
 @media (max-width: 768px) {
 
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 header h1 {
-    font-size: 25px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+header nav {
+    gap: 15px;
+    display: none;
 }
 
 h1 {
@@ -19,6 +31,7 @@ h3 {
 p {
     font-size: 15px;
 }
+
 
 /*Home Page*/
 .discover_text h1 {
@@ -161,5 +174,11 @@ main h2 {
     width: auto;
 }
 
+article {
+    padding: 50px 0 50px 10px;
+    width: 400px;
+}
+
+}
 ;
 }
