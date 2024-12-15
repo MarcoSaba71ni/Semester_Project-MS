@@ -31,15 +31,12 @@ header {
     display: flex;
     flex: 1;
     justify-content: space-between;
+    position: relative;
 }
 
 header h1 {
     padding-left: 100px;
     font-size: 35px;
-}
-
-header a {
-    text-decoration: none;
 }
 
 header nav {
@@ -75,6 +72,8 @@ header a {
 
 .discover h1 {
     color: white;
+    background-color: black;
+    opacity: 80%;
 }
 
 .discover_text {
@@ -85,7 +84,7 @@ header a {
 
 .exhibition {
     background-color: #80C4E9;
-    height: 1200px;
+    height: auto;
     width: 100%;
 }
 
