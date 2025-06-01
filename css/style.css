@@ -29,45 +29,46 @@ header {
     background-color: #4335A7;
     color: white;
     display: flex;
-    flex: 1;
-    justify-content: space-between;
-    position: relative;
-}
-
-header h1 {
-    padding-left: 100px;
-    font-size: 35px;
-}
-
-header nav {
-    display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    gap: 30px;
-    padding: 30px 100px 0 0;
-    height: 40px;
+    justify-content: space-around;
+    
 }
 
 header a {
+    text-decoration: none;
     color: white;
 }
 
-.cta_header {
-    padding: 10px 10px 10px 10px;
-    border-radius: 10px;
-    text-decoration: underline;
-    color: white;
+header a:hover {
+    padding-bottom: 4px;
+    border-bottom: 2px solid white;
+    transition: border-color 0.3s ease;
 }
 
-.cta_header:hover {
-    background-color: #80C4E9;
-    transition-duration: 0.4s;
-    color: black;
+header h1 {
+    font-size: 35px;
+}
+
+.nav-header {    
+    padding-top: 35px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    text-align: center;
+}
+
+.log:hover {
+    scale: 1;
+}
+
+.profile {
+    padding-top: 35px;
 }
 
 .discover img {
     width: 100%;
-    height: auto;
+    height: 300px;
+    object-fit: cover;
 }
 
 .discover h1 {
@@ -76,11 +77,7 @@ header a {
     opacity: 80%;
 }
 
-.discover_text {
-    position: absolute;
-    top: 30rem;
-    left: 10%;
-}
+
 
 .exhibition {
     background-color: #80C4E9;
