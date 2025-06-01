@@ -73,47 +73,45 @@ header h1 {
 
 .discover img {
     width: 100%;
-    height: 300px;
+    height: 330px;
     object-fit: cover;
 }
 
 .discover h1 {
-    color: white;
-    background-color: black;
-    opacity: 80%;
+    color: black;
 }
 
-
-
-.exhibition {
-    background-color: #80C4E9;
-    height: auto;
-    width: 100%;
+.discover_text {
+    width: 80%;
+    padding-left: 5%;
 }
 
-article {
-    padding: 50px 0 50px 250px;
+.exhibition article {
+    padding-left: 5%;
+    padding: 30px 0px 30px 5%;
 }
 
 .exhibition img {
-    width: 387px;
-    height: 461px;
+    width: 350px;
+    height: 440px;
     object-fit: cover;
+}
+
+.exhibition img:hover {
+    transform: scale(1.1);
+    transition-duration: 0.2s;
 }
 
 .exhibition-content {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    gap: 30px;
+    justify-content: center;
 }
 
 .exhibition-content p {
-    width: 362px;
-}
-
-.exhibition-content img:hover {
-    transform: scale(1.1);
-    transition-duration: 0.5s;
+    width: 300px;
 }
 
 .home_info {
@@ -125,17 +123,17 @@ article {
 
 .home_info img:hover {
     transform: scale(1.1);
-    transition-duration: 0.5s;
+    transition-duration: 0.2s;
 }
 
 .home_info img {
-    width: 553px;
-    height: 381px;
+    width: 500px;
+    height: 350px;
     object-fit: cover;
 }
 
 .home_info p{
-    width: 512px;
+    width: 350px;
 }
 
 footer {
