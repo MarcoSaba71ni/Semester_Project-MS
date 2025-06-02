@@ -86,8 +86,8 @@ article {
 }
 
 .home_info img {
-    width: 450px;
-    height: 300px;
+    width: 350px;
+    height: 250px;
     object-fit: cover;
 }
 
@@ -206,109 +206,4 @@ article {
     width: 400px;
 }
 
-}
-
-@media only screen and (min-width: 768px) and (max-width: 959px){
-h1 {
-    font-size: 30px;
-}
-
-h2 {
-    font-size: 25px;
-}
-
-h3 {
-    font-size: 20px;
-}
-
-p {
-    font-size: 15px;
-}
-
-/*Home Page*/
-
-.discover_text {
-    position: absolute;
-    top: 10rem;
-    left: 10%;
-    width: 80%;
-}
-
-.exhibition {
-    height: auto;
-}
-
-/* Visit Us*/
-
-.who-we-are  , .visit_content , .support-us {
-    height: auto;
-}
-
-/*Our History Page*/
-
-.our-history_nav h2, .our-history_nav h3, .our-history_nav p {
-     padding: 50px 0 50px 0px;
-}
-
-.why-are-we-here {
-    width: auto;
-    padding-left: 0;
-}
-
-/*Exhibition */
-
-.discover {
-    padding: 50px 0 100px 20px;
-    width: 80%;
-}
-
-}
-
-@media only screen and (min-width: 959px) and (max-width: 1268px ){
-
-h1 {
-    font-size: 30px;
-}
-
-h2 {
-    font-size: 25px;
-}
-
-h3 {
-    font-size: 20px;
-}
-
-p {
-    font-size: 15px;
-}
-
-/*Home Page*/
-
-.discover_text {
-     position: absolute;
-    top: 10rem;
-    left: 10%;
-    width: 80%;
-}
-
-.exhibition {
-    height: auto;
-}
-
-/*Visit Us*/
-
-.who-we-are , .exhibition_main , .visit_content , .support-us {
-    height: auto;
-}
-
-/* Exhibition Pages */
-
-.exhibition_nav p {
-    width: 80%;
-    padding: 50px 0 100px 20px;
-}
-
-
-}
-    
 }
