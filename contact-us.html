@@ -42,10 +42,27 @@
             <img src="images/mavis-cw-164128.jpg">
             <h1 class="contact-heading-one">Contact Us</h1>
             <h2 class="contact-heading-two">Let’s Connect and Explore Together!</h2>
-            <section class="contact">
-                <div>
-                    <p>Find out who you need to speak to and how to get in touch.</p>
-                    <p>Select which department you want to get in touch followed by your personal information:</p>
+            <div class="contact">
+                <div class="contact-info">
+                    <article>
+                        <p>Find out who you need to speak to and how to get in touch.</p>
+                        <p>Select which department you want to get in touch followed by your personal information:</p>
+                    </article>
+                    <form class="form">
+                        <label for="name">Full Name</label>
+                        <input type="name" id="name" name="name">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email">
+                        <label for="number">Phone Number</label>
+                        <input type="number" id="number" name="number">
+                        <label for="message">Message</label>
+                        <textarea placeholder="Write us a message" cols="30" rows="5"></textarea>
+                        <input type="submit" value="Send Now" class="cta" />
+                            <div>
+                                <input type="checkbox" id="email-updates" name="email-updates" />
+                                <label for="email-updates">Sign up for email updates.</label>
+                            </div>
+                  </form>
                 </div>
                 <div class="visit_booking">
                     <p>Alternatively give us a call</p>
@@ -53,24 +70,9 @@
                     <p>Open times from Tuesday- Sunday</p>
                     <p> 08:00-13:00   15:00-20:00</p>
                 </div>
-            </section>
+            </div>
         </main>
-        <form class="form">
-            <label for="name">Full Name</label>
-            <input type="name" id="name" name="name">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email">
-            <label for="number">Phone Number</label>
-            <input type="number" id="number" name="number">
-            <label for="message">Message</label>
-            <textarea placeholder="Write us a message" cols="30" rows="5"></textarea>
-            <input type="submit" value="Send Now" class="cta" />
-                    <div>
-                        <input type="checkbox" id="email-updates" name="email-updates" />
-                        <label for="email-updates">Sign up for email updates.</label>
-                    </div>
-        </form>
-    </body>
+        
      <footer>
          <div class="footer-links">
             <a href="index.html"><h2>Science Museum</h2></a>
@@ -86,4 +88,6 @@
             <p>Exhibition Road 35, Stockholm Sweden 19020</p>
         </div>
     </footer>
+    <script src="js/header.js"></script>        
+    </body>
 </html>

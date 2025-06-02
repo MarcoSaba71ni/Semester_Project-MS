@@ -143,15 +143,21 @@ main h2, h3, p {
 /* Contact Us */
 
 .contact-us h1 {
-    padding: 50px 0 50px 175px;
-}
-
-main h2 {
-    padding-left: 0px;
+    padding-left: 10%;
 }
 
 .inputs {
     padding: 0 0 100px 75px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.visit_booking {
+    margin-left: 5%;
 }
 
 /* Our History */
