@@ -4,13 +4,13 @@ main img {
     object-fit: cover;
 }
 
-main h1 {
+.contact-heading-one {
     background-color: #53380E;
     padding: 50px 0 50px 250px;
     color: white;
 }
 
-main h2 {
+.contact-heading-two {
 padding: 50px 0 20px 250px;;
 }
 
@@ -27,7 +27,7 @@ padding: 50px 0 20px 250px;;
     padding: 10px;
 }
 
-nav {
+.form {
     display: flex;
     flex-direction: column;
     width: 347px;

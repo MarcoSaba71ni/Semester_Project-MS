@@ -39,7 +39,8 @@ header a {
     color: white;
 }
 
-header a:hover {
+header a:hover,
+footer a:hover {
     padding-bottom: 4px;
     border-bottom: 2px solid white;
     transition: border-color 0.3s ease;
@@ -143,28 +144,32 @@ header h1 {
 footer {
     background-color: #4335A7;
     color: white;
-    display: flex;
-    flex-wrap: wrap;
-    flex: 1;
-    justify-content: space-evenly;
-    height: 212px;
-    padding-top: 150px;
+    padding: 50px 0px;
 }
 
-footer h1 {
+.footer-links, 
+.location-div {
     padding-left: 100px;
 }
 
-footer nav {
+.footer-links ul {
+    padding-top: 20px;
     display: flex;
     flex-direction: row;
-    gap: 30px;
-    padding: 30px 100px 0 0;
+    flex-wrap: wrap;
+    gap: 25px;
 }
 
 footer a {
     text-decoration: none;
     color: white;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    flex-wrap: wrap;
 }
 
 .cta {

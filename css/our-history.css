@@ -4,12 +4,14 @@ main img {
     object-fit: cover;
 }
 
-main h1 {
+.our-history h1 {
     background-color: #BB80E9;
     padding: 50px 0 50px 250px;
 }
 
-main h2, h3, p {
+.our-history h2, 
+.our-history h3,
+.our-history p {
     padding: 50px 20px 50px 20px;
     width: 90%;
 }
@@ -55,8 +57,4 @@ nav img {
     justify-content: center;
     height: auto;
     padding: 50px 0 50px 0;
-}
-
-footer {
-    height: auto;
 }
