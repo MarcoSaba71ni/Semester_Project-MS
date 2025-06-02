@@ -8,15 +8,35 @@
         <link href="../css/style.css" rel="stylesheet">
         <link href="../css/events.css" rel="stylesheet">
         <link href="../css/media.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/fb4c08beea.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <header>
-            <a href="../index.html"><h1>Science Museum</h1></a>
+            <div class="logo-div">
+                <a class="logo" href="../index.html"><h1>Science Museum</h1></a>            
+            </div>
             <nav>
+                <div class="nav-header">
                     <a href="../visit-us.html" class="cta_header">Visit</a>
                     <a href="../contact-us.html" class="cta_header">Contact</a>
                     <a href="../our-history.html" class="cta_header">Our History</a>
+                </div>
             </nav>
+            <div class="profile">
+                <a href="#">Profile</a>
+            </div>
+            <div class="dropdown">
+                <button id="btn-burguer" class="burguer-btn" aria-label="Toggle menu">
+                    <i class="fa-solid fa-bars" style="color: #4335A7;"></i>
+                </button>
+                <div id="dropdown-id" class="dropdown-links">
+                    <a href="../index.html">Home</a>
+                    <a href="../visit-us.html">Visit Us</a>
+                    <a href="../contact-us.html">Contact Us</a>
+                    <a href="../exhibition.html">Exhibitions</a>
+                    <a href="../our-history.html">Our History</a>
+                </div>
+            </div>
         </header>
         <main>
             <img src="../images/samuel-zeller-113381.jpg">
@@ -63,17 +83,20 @@
             </article>
         </nav>
         <footer>
-            <h1>Science Museum</h1>
-            <ul>
-                <li><a href="../visit-us.html">Visit Us</a></li>
-                <li><a href="../contact-us.html">Contact Us</a></li>
-                <li><a href="../our-history.html">Our History</a></li>
-                <li><a href="../exhibition.html">Exhibition</a></li>
-            </ul>
-            <div>
-                <p>Location</p>
-                <p>Exhibition Road 35, Stockholm Sweden 19020</p> 
+            <div class="footer-links">
+                <a href="index.html"><h2>Science Museum</h2></a>
+                <ul>
+                    <li><a href="visit-us.html">Visit Us</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                    <li><a href="our-history.html">Our History</a></li>
+                    <li><a href="exhibition.html">Exhibition</a></li>
+                </ul>
+            </div>
+            <div class="location-div">
+                <h3>Location</h3>
+                <p>Exhibition Road 35, Stockholm Sweden 19020</p>
             </div>
         </footer>
+        <script src="../js/header.js"></script>
     </body>
 </html>
