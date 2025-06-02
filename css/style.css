@@ -83,7 +83,11 @@ header h1 {
 
 .discover_text {
     width: 80%;
-    padding-left: 5%;
+    padding: 0 0 30px 5%;
+}
+
+.exhibition {
+    background-color: aqua;
 }
 
 .exhibition article {
