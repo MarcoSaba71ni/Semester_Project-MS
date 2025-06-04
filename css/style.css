@@ -83,15 +83,16 @@ header h1 {
 }
 
 .discover_text {
-    width: 80%;
+    width: 75%;
     padding: 0 0 30px 5%;
 }
 
 .exhibition {
-    background-color: aqua;
+    background-color:antiquewhite;
 }
 
 .exhibition article {
+
     padding-left: 5%;
     padding: 30px 0px 30px 5%;
 }
