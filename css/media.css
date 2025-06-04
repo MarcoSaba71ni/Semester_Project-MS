@@ -204,16 +204,31 @@ main img {
 /* Exhibition Pages */
 
 .exhibition_main h1 {
-    padding: 50px 0 50px 170px;
+    padding: 50px 0 50px 0px;
+    text-align: center;
 }
+
 
 .exhibition_main h2, .exhibition_main h3 {
     padding: 0px 0px 20px 0px;
     width: auto;
 }
 
-.current img {
-    width: 480px;
+.visit_booking {
+    margin-top: 10px;
+}
+
+nav h2 {
+    padding: 20px ;
+}
+
+.current {
+    gap: 30px;
+}
+
+.current img ,
+.current p {
+    width: 380px;
 }
 
 .discover {
@@ -224,6 +239,15 @@ main img {
 article {
     padding: 50px 0 50px 10px;
     width: 400px;
+}
+
+.exhibition_div img {
+    height: 400px;
+}
+
+.our-history h1 {
+    text-align: center;
+    padding-left: 0px;
 }
 
 }
